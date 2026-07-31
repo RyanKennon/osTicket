@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/daa445be-b28b-4116-8795-886f90dbb7ea" />
+  <img width="500" height="320" alt="image" src="https://github.com/user-attachments/assets/48d64395-6b4f-4968-9e97-cbdb46436649" />
 </p>
 
 # osTicket: Deployment & Service Desk Workflow
