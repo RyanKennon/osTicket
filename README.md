@@ -58,7 +58,6 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 <p align="center">
   <img width="604" height="460" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/ff0c9e93-e847-4455-86c5-ae1423a59333" />
-  <img width="1818" height="592" alt="Untitled Diagram-Page-1 drawio" src="https://github.com/user-attachments/assets/5707ad74-caf1-4f74-8372-162c5ec228a1" />
 </p>
 
 ---
@@ -67,19 +66,12 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 1. In the Virtual Machine open the computers **Control Panel** and select **Programs**
 2. Select **Turn windows features on or off**
-
-<p align="center">
-  <img width="918" height="613" alt="Untitled Diagram-Page-3 drawio" src="https://github.com/user-attachments/assets/99cce2ac-a046-4332-8bee-a44176d268a0" />
-</p>
-
 3. Check the box labeled **Intenet Information Services**
-4. Navigate through **Internet Information Services** to **CGI** and check the box
+4. Navigate through **Internet Information Services** to **CGI** and check the box then complete installation
 
 <p align="center">
   <img width="413" height="422" alt="Untitled Diagram-Page-5 drawio" src="https://github.com/user-attachments/assets/faf586fa-dd0f-433b-a496-b78816f8c969" />
 </p>
-
-5. Complete Installation
 
 ---
 
@@ -91,11 +83,6 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 4. In the **osTicket Dependencies** folder extract the file named **php** to the **PHP folder on the `C: \`**
 5. Install **VC_redist** and **mysql** when asked choose **Typical Setup**
 6. Launch the **MySQL configuration wizard** and choose **Standard Configuration** when asked
-
-<p align="center">
-  <img width="1118" height="731" alt="Untitled Diagram-Page-11 drawio" src="https://github.com/user-attachments/assets/15b87225-880d-4899-b937-522398e2a748" />
-</p>
-
 7. Create a **root password** and complete the wizard
 
 ---
@@ -109,18 +96,13 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 </p>
 
 2. Open **PHP Manager**
-
-<p align="center">
-  <img width="1054" height="748" alt="Untitled Diagram-Page-13 drawio" src="https://github.com/user-attachments/assets/1df8470c-65f0-4b8f-b17d-6536a5a33bd6" />
-</p>
-
 3. Select **Register new PHP version**
-4. Select **PHP executable** on the **`C: \`**
 
 <p align="center">
-  <img width="1245" height="915" alt="Untitled Diagram-Page-15 drawio" src="https://github.com/user-attachments/assets/2f782d80-1e2f-4f24-b7d1-824a77688c0b" />
+  <img width="1079" height="697" alt="Untitled Diagram-Page-12 drawio" src="https://github.com/user-attachments/assets/57eb729d-ed40-44eb-ba18-4e54da082994" />
 </p>
 
+4. Select **PHP executable** on the **`C: \`**
 5. **Stop** and **start** the server
 
 <p align="center">
