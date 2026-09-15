@@ -133,45 +133,35 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="1050" height="591" alt="Untitled Diagram-Page-20 drawio" src="https://github.com/user-attachments/assets/8d4fdda9-6121-4f40-a693-2e1472c125d1" />
 </p>
 
-3. Observe the site
-
-<p align="center">
-  <img width="889" height="837" alt="Untitled Diagram-Page-21 drawio" src="https://github.com/user-attachments/assets/60ce1752-3a8c-4d48-94a7-86b1d8e97b96" />
-</p>
-
-4. In IIS navigate to the **osTicket** folder select **PHP Manager**
-5. Click **enable or disable an extention**
-6. Find these three extensions:
+3. In **IIS** navigate to the **osTicket** folder select **PHP Manager**
+4. Click **enable or disable an extention**
+5. Find these three extensions:
    - **php_imap**
    - **php_intl**
    - **php_opcache**
-7. Right click and **enable them**
+6. Right click and **enable them**
 
 <p align="center">
   <img width="643" height="612" alt="Untitled Diagram-Page-24 drawio" src="https://github.com/user-attachments/assets/ad5f07bc-cc8c-43f2-8468-4391cd9c69e2" />
 </p>
 
-8. Refresh the **web browser** and observe the changes
-
-<p align="center">
-  <img width="845" height="821" alt="Untitled Diagram-Page-25 drawio" src="https://github.com/user-attachments/assets/be47a133-690d-490e-b433-da7be6659e9c" />
-</p>
+7. Refresh the **IIS**
 
 ---
 
 ### 7) Grant osTicket Permissions
 
-1. Navigate to **`C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`**
-2. Rename the file to **`C:\inetpub\wwwroot\osTicket\include\ost-config.php`**
+1. Navigate to **`C:\inetpub\wwwroot\osTicket\upload\include\ost-sampleconfig.php`**
+2. Rename the file to **`C:\inetpub\wwwroot\osTicket\upload\include\ost-config.php`**
 3. For the **`ost-config.php`** file right click and open **Properties**
 4. Select **Security** then click **Advanced**
-5. Disable inheritance then click add
+5. **Disable Inheritance**
 
 <p align="center">
   <img width="1111" height="662" alt="Untitled Diagram-Page-28 drawio" src="https://github.com/user-attachments/assets/184deca2-fbb4-459c-a243-b35db85fddd9" />
 </p>
 
-6. Select a **Principal**
+6. Select **Add** then **Select a Principal**
 7. Enter **Everyone** and select **Check Names**
 8. Check the box labeled **Full Control** and apply the changes
 
@@ -184,11 +174,6 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 ### 8) Install HeidiSQL
 
 1. In the **osTicket Installation Files** folder install and launch **HeidiSQL**
-
-<p align="center">
-  <img width="1124" height="631" alt="Untitled Diagram-Page-30 drawio" src="https://github.com/user-attachments/assets/4793b8d2-e36f-4c56-b5f1-b8f1f874a1a2" />
-</p>
-
 2. Select **New** then enter the information for the **root user** then click **open**
 
 <p align="center">
