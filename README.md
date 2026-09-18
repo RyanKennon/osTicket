@@ -25,8 +25,8 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 ## Table of Contents
 
 - [1)	Create Virtual Machine](#1-create-virtual-machine)
-- [2)	Enable Internet Information Services (IIS)](#2-enable-internet-information-services-iis)
-- [3)	Download osTicket Dependencies](#3-download-osticket-dependencies)
+- [2)	Enable Internet Information Services (IIS)](#3-enable-internet-information-services-iis)
+- [3)	Download osTicket Dependencies](#2-download-osticket-dependencies)
 - [4)	Configure Internet Information Services (IIS) and Register PHP](#4-configure-internet-information-services-iis-and-register-php)
 - [5)	Install osTicket](#5-install-osticket)
 - [6)	Download Extensions](#6-download-extensions)
@@ -89,7 +89,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 ### 4) Configure Internet Information Services (IIS) and Register PHP
 
-1. Open IIS as an admin
+1. In the **Start Menu** search **Internet Information Services (IIS)** and open as an admin
 
 <p align="center">
   <img width="1079" height="697" alt="Untitled Diagram-Page-12 drawio" src="https://github.com/user-attachments/assets/57eb729d-ed40-44eb-ba18-4e54da082994" />
