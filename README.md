@@ -127,9 +127,11 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 ### 6) Download Extensions
 
 1. Navigate to the **osTicket** folder in IIS
-2. Select **Browse 80**
+2. Select **Browse 80** and the **osTicket Site** should pull up in the web browser
 
 <p align="center">
+  <img width="1050" height="591" alt="Untitled Diagram-Page-20 drawio" src="https://github.com/user-attachments/assets/8d4fdda9-6121-4f40-a693-2e1472c125d1" />
+
   <img width="1050" height="591" alt="Untitled Diagram-Page-20 drawio" src="https://github.com/user-attachments/assets/8d4fdda9-6121-4f40-a693-2e1472c125d1" />
 </p>
 
@@ -145,7 +147,12 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="643" height="612" alt="Untitled Diagram-Page-24 drawio" src="https://github.com/user-attachments/assets/ad5f07bc-cc8c-43f2-8468-4391cd9c69e2" />
 </p>
 
-7. Refresh the **IIS**
+7. **Stop** and **Start** the server in the **IIS**
+8. **Refresh** the **osTicket** page in the browser and observe changes
+
+<p align="center">
+  <img width="643" height="612" alt="Untitled Diagram-Page-24 drawio" src="https://github.com/user-attachments/assets/ad5f07bc-cc8c-43f2-8468-4391cd9c69e2" />
+</p>
 
 ---
 
