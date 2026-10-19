@@ -203,7 +203,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 ### 9) Setup osTicket in Browser
 
 1. Go back to **osTicket** in the browser and select **continue**
-2. Fill out the helpdesk information
+2. Fill out the helpdesk information and when you get to the **Database Settings** enter the following information:
    - **MySQL Database:** osTicket
    - **MySQL Username and Password** enter the root user information
 3. Complete the Installation
@@ -233,7 +233,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 </p>
 
 2. In the **admin** account open the **Admin Panel**
-3. Select the **Agent** tab then select **Roles** then **Add New Role**
+3. Select the **Agents** tab then select **Roles** then **Add New Role**
 4. Create a **Supreme Admin** and grant all **Permissions** and create role
 
 <p align="center">
@@ -265,7 +265,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="976" height="793" alt="Untitled Diagram-Page-5 drawio" src="https://github.com/user-attachments/assets/e41dc03b-b20f-446d-aca1-4e7179374283" />
 </p>
 
-2. Select **Agents** then **Add New Agent**
+2. Open the **Agents** tab then **Agents** then **Add New Agent**
 3. Create two Agents: named **Jane** and **John**
    - **Jane**
        - **Role:** Supreme Admin
