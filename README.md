@@ -158,9 +158,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 ### 7) Grant osTicket Permissions
 
-1. Navigate to **`C:\inetpub\wwwroot\osTicket\upload\include\ost-sampleconfig.php`**
-2. Rename the file to **`C:\inetpub\wwwroot\osTicket\upload\include\ost-config.php`**
+1. Navigate to **`C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`**
+2. Rename the file to **`C:\inetpub\wwwroot\osTicket\include\ost-config.php`**
 3. For the **`ost-config.php`** file right click and open **Properties**
+
+<p align="center">
+  <img width="1111" height="662" alt="Untitled Diagram-Page-28 drawio" src="https://github.com/user-attachments/assets/184deca2-fbb4-459c-a243-b35db85fddd9" />
+</p>
+
 4. Select **Security** then click **Advanced**
 5. **Disable Inheritance**
 
