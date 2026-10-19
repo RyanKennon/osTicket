@@ -25,8 +25,8 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 ## Table of Contents
 
 - [1)	Create Virtual Machine](#1-create-virtual-machine)
-- [2)	Enable Internet Information Services (IIS)](#3-enable-internet-information-services-iis)
-- [3)	Download osTicket Dependencies](#2-download-osticket-dependencies)
+- [2)	Enable Internet Information Services (IIS)](#2-enable-internet-information-services-iis)
+- [3)	Download osTicket Dependencies](#3-download-osticket-dependencies)
 - [4)	Configure Internet Information Services (IIS) and Register PHP](#4-configure-internet-information-services-iis-and-register-php)
 - [5)	Install osTicket](#5-install-osticket)
 - [6)	Download Extensions](#6-download-extensions)
@@ -46,15 +46,15 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 ### 1) Create Virtual Machine
 
-1. Seach Virtual Machines then create give the Virtual Machine the following settings then create the Virtual Machine
+1. Search Virtual Machines then create give the Virtual Machine the following settings then create the Virtual Machine
   - **Basics**
     - **Resource Group:** osTicket-vm_group
     - **Name:** osTicket-vm
     - **Image:** Windows 10 Pro
-    - **Size:** 2vcpus
-    - **Reigon:** South Central US
+    - **Size:** 2 vCPUs
+    - **Region:** South Central US
     - **Username:** userryan
-    - **Password:** Cyberlab123!
+    - **Password:** *your password*
 
 <p align="center">
   <img width="604" height="460" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/ff0c9e93-e847-4455-86c5-ae1423a59333" />
@@ -66,7 +66,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 1. In the Virtual Machine open the computers **Control Panel** and select **Programs**
 2. Select **Turn windows features on or off**
-3. Check the box labeled **Intenet Information Services**
+3. Check the box labeled **Internet Information Services**
 4. Navigate through **Internet Information Services** to **CGI** and check the box then complete installation
 
 <p align="center">
@@ -102,7 +102,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="1079" height="697" alt="Untitled Diagram-Page-12 drawio" src="https://github.com/user-attachments/assets/57eb729d-ed40-44eb-ba18-4e54da082994" />
 </p>
 
-4. Select **PHP executable** on the **`C: \`**
+4. Select **PHP executable** on the **`C:\`**
 5. **Stop** and **start** the server
 
 <p align="center">
@@ -120,14 +120,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="877" height="460" alt="Untitled Diagram-Page-18 drawio" src="https://github.com/user-attachments/assets/79685f5a-edf1-4a17-bd47-af44721e4281" />
 </p>
 
-3. Stop and start the server in ISS
+3. Stop and start the server in IIS
 
 ---
 
-### 6) Download Extensions
+### 6) Enable PHP Extensions
 
 1. Navigate to the **osTicket** folder in IIS
-2. Select **Browse 80** and the **osTicket Site** should pull up in the web browser
+2. Select **Browse 80** and the **osTicket site** should pull up in the web browser
 
 <p align="center">
   <img width="1050" height="591" alt="Untitled Diagram-Page-20 drawio" src="https://github.com/user-attachments/assets/8d4fdda9-6121-4f40-a693-2e1472c125d1" />
@@ -136,7 +136,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 </p>
 
 3. In **IIS** navigate to the **osTicket** folder select **PHP Manager**
-4. Click **enable or disable an extention**
+4. Click **enable or disable an extension**
 5. Find these three extensions:
    - **php_imap**
    - **php_intl**
@@ -158,8 +158,8 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 ### 7) Grant osTicket Permissions
 
-1. Navigate to **`C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`**
-2. Rename the file to **`C:\inetpub\wwwroot\osTicket\include\ost-config.php`**
+1. Navigate to **`c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`**
+2. Rename the file to **`c:\inetpub\wwwroot\osTicket\include\ost-config.php`**
 3. For the **`ost-config.php`** file right click and open **Properties**
 
 <p align="center">
@@ -205,7 +205,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 1. Go back to **osTicket** in the browser and select **continue**
 2. Fill out the helpdesk information and when you get to the **Database Settings** enter the following information:
    - **MySQL Database:** osTicket
-   - **MySQL Username and Password** enter the root user information
+   - **MySQL Username and Password:** enter the root user information
 3. Complete the Installation
 
 <p align="center">
@@ -217,11 +217,13 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 ### 10) Verify Installation Success
 
 1. Go to the osTicket helpdesk login page: [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)
-2. Login to the helpdesk
+2. Log in to the helpdesk
 
 <p align="center">
   <img width="975" height="389" alt="Untitled Diagram-Page-34 drawio" src="https://github.com/user-attachments/assets/bf4994b5-055b-4b06-a183-6f3278247131" />
 </p>
+
+---
 
 ### 11) Configure Roles, Departments, and Teams
 
@@ -339,7 +341,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 ### 15) Create Help Tickets
 
-1. [Login as an end user](http://localhost/osTicket) and create a ticket with the following information:
+1. [Log in as an end user](http://localhost/osTicket) and create a ticket with the following information:
   - Ticket 1
     - **Help Topic:** General Inquiry / Other
     - **Issue Summary:** entire mobile/online banking system is down
@@ -349,9 +351,9 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="848" height="907" alt="Untitled Diagram-Page-1 drawio" src="https://github.com/user-attachments/assets/0ff6dec4-c606-4755-b445-feb651453f77" />
 </p>
 
-2. Create a second ticket with the follwing information:
+2. Create a second ticket with the following information:
   - Ticket 2
-    - **Help Topic:** Personal Computer Issues
+    - **Help Topic:** Report a Problem / Personal Computer Issues
     - **Issue Summary:** Adobe Reader not working
     - **Issue Description:** Some people in the accounting department can't use adobe reader
 
@@ -363,7 +365,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 
 ### 16) Triage Tickets
 
-1. [Log into the agent portal](http://localhost/osTicket/scp/login.php)
+1. [Log into the agent portal](http://localhost/osTicket/scp/login.php) as **John**
 
 <p align="center">
   <img width="966" height="418" alt="Untitled Diagram-Page-3 drawio" src="https://github.com/user-attachments/assets/1183249f-77cf-4992-a3a8-6b19ce02431b" />
@@ -380,14 +382,15 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="970" height="321" alt="Untitled Diagram-Page-4 drawio" src="https://github.com/user-attachments/assets/d1df2320-11c2-47fd-bd9b-2f098fea9e69" />
 </p>
 
-4. Close Ticket
+4. Next to **Status** select **Open** then select **Closed** then **Close** ticket
+5. Open the **Tickets** tab then select **Closed** to confirm the ticket has been closed
 
 <p align="center">
   <img width="970" height="252" alt="Untitled Diagram-Page-5 drawio" src="https://github.com/user-attachments/assets/8fd8b5e2-c054-403b-b457-553502dee969" />
 </p>
 
-5. Observe the **entire mobile/online banking system is down** ticket
-6. Make the following changes:
+6. Select **Open** then observe the **entire mobile/online banking system is down** ticket
+7. Make the following changes:
   - **Priority:** Emergency
   - **SLA:** Sev-A
   - **Help Topic:** Business Critical Outage
@@ -397,16 +400,28 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   <img width="965" height="308" alt="Untitled Diagram-Page-6 drawio" src="https://github.com/user-attachments/assets/09fe4c3f-046e-47a5-990e-6e8c71f49571" />
 </p>
 
+8. Scroll down to the **Post Reply** section and enter the response: Business critical outage, escalating ticket
+9. Select **Post Reply**
+
+<p align="center">
+  <img width="965" height="308" alt="Untitled Diagram-Page-6 drawio" src="https://github.com/user-attachments/assets/09fe4c3f-046e-47a5-990e-6e8c71f49571" />
+</p>
+
 ---
 
 ### 17) Work Ticket to Completion
 
-1. Long into the agent portal as SysAdmin
-2. Observe the **entire mobile/online banking system is down** ticket
-3. Post reply to the ticket
+1. Log into the agent portal as **Jane**
 
 <p align="center">
   <img width="975" height="681" alt="Untitled Diagram-Page-7 drawio" src="https://github.com/user-attachments/assets/dcc41188-2595-48d8-b5c3-c29c1f47f426" />
 </p>
 
-4. Close ticket
+2. Observe the **entire mobile/online banking system is down** ticket
+3. Post reply to the ticket that says: System restored, closing ticket then **Post Reply**
+
+<p align="center">
+  <img width="975" height="681" alt="Untitled Diagram-Page-7 drawio" src="https://github.com/user-attachments/assets/dcc41188-2595-48d8-b5c3-c29c1f47f426" />
+</p>
+
+4. Next to **Status** select **Open** then select **Closed** then **Close** ticket
