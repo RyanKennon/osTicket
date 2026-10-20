@@ -29,7 +29,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 - [3)	Download osTicket Dependencies](#3-download-osticket-dependencies)
 - [4)	Configure Internet Information Services (IIS) and Register PHP](#4-configure-internet-information-services-iis-and-register-php)
 - [5)	Install osTicket](#5-install-osticket)
-- [6)	Download Extensions](#6-download-extensions)
+- [6)	Enable PHP Extension](#6-enable-php-extensions)
 - [7)	Grant osTicket Permissions](#7-grant-osticket-permissions)
 - [8)	Install HeidiSQL](#8-install-heidisql)
 - [9)	Setup osTicket in Browser](#9-setup-osticket-in-browser)
