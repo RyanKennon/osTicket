@@ -383,7 +383,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   - **Assigned To:** John
 
 <p align="center">
-  <img width="970" height="321" alt="Untitled Diagram-Page-4 drawio" src="Images/Image%2025.PNG" />
+  <img width="970" height="321" alt="Untitled Diagram-Page-4 drawio" src="Images/Image%2025.png" />
 </p>
 
 4. Next to **Status** select **Open** then select **Closed** then **Close** ticket
@@ -401,7 +401,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   - **Assigned To:** Jane
 
 <p align="center">
-  <img width="965" height="308" alt="Untitled Diagram-Page-6 drawio" src="Images/Image%2027.PNG" />
+  <img width="965" height="308" alt="Untitled Diagram-Page-6 drawio" src="Images/Image%2027.png" />
 </p>
 
 8. Scroll down to the **Post Reply** section and enter the response: Business critical outage, escalating ticket
