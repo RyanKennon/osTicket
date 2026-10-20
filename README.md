@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" height="320" alt="image" src="Images/Header.png" />
+  <img src="Images/Header.png" />
 </p>
 
 # osTicket: Deployment & Service Desk Workflow
@@ -57,7 +57,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
     - **Password:** *your password*
 
 <p align="center">
-  <img width="600" alt="Azure VM settings" src="Images/Image%201.png" />
+  <img alt="Azure VM settings" src="Images/Image%201.png" />
 </p>
 
 ---
@@ -70,7 +70,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 4. Navigate through **Internet Information Services** to **CGI** and check the box then complete installation
 
 <p align="center">
-  <img width="413" height="422" src="Images/Image%202.PNG" />
+  <img src="Images/Image%202.PNG" />
 </p>
 
 ---
@@ -86,7 +86,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 7. Create a **root password** and complete the wizard
 
 <p align="center">
-  <img width="1079" height="697" alt="Untitled Diagram-Page-12 drawio" src="Images/Image%202.5.PNG" />
+  <img src="Images/Image%202.5.PNG" />
 </p>
 
 ---
@@ -96,21 +96,21 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 1. In the **Start Menu** search **Internet Information Services (IIS)** and open as an admin
 
 <p align="center">
-  <img width="1079" height="697" alt="Untitled Diagram-Page-12 drawio" src="Images/Image%203.PNG" />
+  <img src="Images/Image%203.PNG" />
 </p>
 
 2. Open **PHP Manager**
 3. Select **Register new PHP version**
 
 <p align="center">
-  <img width="1079" height="697" alt="Untitled Diagram-Page-12 drawio" src="Images/Image%204.PNG" />
+  <img src="Images/Image%204.PNG" />
 </p>
 
 4. Select **PHP executable** on the **`C:\`**
 5. **Stop** and **start** the server
 
 <p align="center">
-  <img width="1056" height="607" alt="Untitled Diagram-Page-16 drawio" src="Images/Image%205.PNG" />
+  <img src="Images/Image%205.PNG" />
 </p>
 
 ---
@@ -121,7 +121,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 2. Copy the upload folder to **`c:\inetpub\wwwroot`** and rename the folder **osTicket**
 
 <p align="center">
-  <img width="877" height="460" alt="Untitled Diagram-Page-18 drawio" src="Images/Image%206.PNG" />
+  <img src="Images/Image%206.PNG" />
 </p>
 
 3. Stop and start the server in IIS
@@ -134,9 +134,9 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 2. Select **Browse 80** and the **osTicket site** should pull up in the web browser
 
 <p align="center">
-  <img width="1050" height="591" alt="Untitled Diagram-Page-20 drawio" src="Images/Image%207.PNG" />
+  <img src="Images/Image%207.PNG" />
 
-  <img width="1050" height="591" alt="Untitled Diagram-Page-20 drawio" src="Images/Image%207.5.PNG" />
+  <img src="Images/Image%207.5.PNG" />
 </p>
 
 3. In **IIS** navigate to the **osTicket** folder select **PHP Manager**
@@ -148,14 +148,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 6. Right click and **enable them**
 
 <p align="center">
-  <img width="643" height="612" alt="Untitled Diagram-Page-24 drawio" src="Images/Image%208.PNG" />
+  <img src="Images/Image%208.PNG" />
 </p>
 
 7. **Stop** and **Start** the server in the **IIS**
 8. **Refresh** the **osTicket** page in the browser and observe changes
 
 <p align="center">
-  <img width="643" height="612" alt="Untitled Diagram-Page-24 drawio" src="Images/Image%208.5.PNG" />
+  <img src="Images/Image%208.5.PNG" />
 </p>
 
 ---
@@ -167,14 +167,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 3. For the **`ost-config.php`** file right click and open **Properties**
 
 <p align="center">
-  <img width="1111" height="662" alt="Untitled Diagram-Page-28 drawio" src="Images/Image%209.5.PNG" />
+  <img src="Images/Image%209.5.PNG" />
 </p>
 
 4. Select **Security** then click **Advanced**
 5. **Disable Inheritance**
 
 <p align="center">
-  <img width="1111" height="662" alt="Untitled Diagram-Page-28 drawio" src="Images/Image%209.PNG" />
+  <img src="Images/Image%209.PNG" />
 </p>
 
 6. Select **Add** then **Select a Principal**
@@ -182,7 +182,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 8. Check the box labeled **Full Control** and apply the changes
 
 <p align="center">
-  <img width="911" height="588" alt="Untitled Diagram-Page-29 drawio" src="Images/Image%2010.PNG" />
+  <img src="Images/Image%2010.PNG" />
 </p>
 
 ---
@@ -193,13 +193,13 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 2. Select **New** then enter the information for the **root user** then click **open**
 
 <p align="center">
-  <img width="683" height="480" alt="Untitled Diagram-Page-31 drawio" src="Images/Image%2011.PNG" />
+  <img src="Images/Image%2011.PNG" />
 </p>
 
 3. Right click **unnamed** and create a new database name **osTicket**
 
 <p align="center">
-  <img width="930" height="587" alt="Untitled Diagram-Page-32 drawio" src="Images/Image%2012.PNG" />
+  <img src="Images/Image%2012.PNG" />
 </p>
 
 ---
@@ -213,7 +213,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 3. Complete the Installation
 
 <p align="center">
-  <img width="562" height="371" alt="Untitled Diagram-Page-33 drawio" src="Images/Image%2013.PNG" />
+  <img src="Images/Image%2013.PNG" />
 </p>
 
 ---
@@ -224,7 +224,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 2. Log in to the helpdesk
 
 <p align="center">
-  <img width="975" height="389" alt="Untitled Diagram-Page-34 drawio" src="Images/Image%2014.PNG" />
+  <img src="Images/Image%2014.PNG" />
 </p>
 
 ---
@@ -235,7 +235,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
    - [Admin/Analyst Login Page](http://localhost/osTicket/scp/login.php)
 
 <p align="center">
-  <img width="826" height="619" alt="Capture1" src="Images/Image%2014.5.PNG" />
+  <img src="Images/Image%2014.5.PNG" />
 </p>
 
 2. In the **admin** account open the **Admin Panel**
@@ -243,7 +243,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 4. Create a **Supreme Admin** and grant all **Permissions** and create role
 
 <p align="center">
-  <img width="984" height="566" alt="Untitled Diagram-Page-2 drawio" src="Images/Image%2015.PNG" />
+  <img src="Images/Image%2015.PNG" />
 </p>
 
 5. Select **Departments** then **Add New Department**
@@ -251,14 +251,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 7. Delete the **Maintenance** department
 
 <p align="center">
-  <img width="973" height="487" alt="Untitled Diagram-Page-3 drawio" src="Images/Image%2016.PNG" />
+  <img src="Images/Image%2016.PNG" />
 </p>
 
 8. Select **Teams** then **Add New Team**
 9. Create an **Online Banking** team
 
 <p align="center">
-  <img width="977" height="447" alt="Untitled Diagram-Page-4 drawio" src="Images/Image%2017.PNG" />
+  <img src="Images/Image%2017.PNG" />
 </p>
 
 ---
@@ -268,7 +268,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 1. Select **Settings** then **Users** and uncheck the box labeled **Require registration and login to create tickets**
 
 <p align="center">
-  <img width="976" height="793" alt="Untitled Diagram-Page-5 drawio" src="Images/Image%2018.PNG" />
+  <img src="Images/Image%2018.PNG" />
 </p>
 
 2. Open the **Agents** tab then **Agents** then **Add New Agent**
@@ -284,7 +284,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
         - **Team:** Leave Blank
      
 <p align="center">
-  <img width="980" height="516" alt="Untitled Diagram-Page-6 drawio" src="Images/Image%2019.PNG" />
+  <img src="Images/Image%2019.PNG" />
 </p>
 
 ---
@@ -295,7 +295,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 2. Name the user **Karen** and fill out necessary information
 
 <p align="center">
-  <img width="976" height="462" alt="Untitled Diagram-Page-7 drawio" src="Images/Image%2020.PNG" />
+  <img src="Images/Image%2020.PNG" />
 </p>
 
 ---
@@ -317,7 +317,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
       - **Schedule:** 24/5
      
 <p align="center">
-  <img width="975" height="535" alt="Untitled Diagram-Page-8 drawio" src="Images/Image%2021.PNG" />
+  <img src="Images/Image%2021.PNG" />
 </p>
 
 3. Select **Help Topics** and **Add New Help Topic**
@@ -338,7 +338,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
      - **Parent Topic:** General Inquiry
     
 <p align="center">
-  <img width="975" height="758" alt="Untitled Diagram-Page-9 drawio" src="Images/Image%2022.PNG" />
+  <img src="Images/Image%2022.PNG" />
 </p>
 
 ---
@@ -352,7 +352,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
     - **Issue Description:** When I got back from lunch, I couldn't log into the online banking system portal, and none of my tellers at the bank can either.
   
 <p align="center">
-  <img width="848" height="907" alt="Untitled Diagram-Page-1 drawio" src="Images/Image%2023.PNG" />
+  <img src="Images/Image%2023.PNG" />
 </p>
 
 2. Create a second ticket with the following information:
@@ -362,7 +362,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
     - **Issue Description:** Some people in the accounting department can't use adobe reader
 
 <p align="center">
-  <img width="847" height="886" alt="Untitled Diagram-Page-2 drawio" src="Images/Image%2024.PNG" />
+  <img src="Images/Image%2024.PNG" />
 </p>
 
 ---
@@ -372,7 +372,7 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 1. [Log into the agent portal](http://localhost/osTicket/scp/login.php) as **John**
 
 <p align="center">
-  <img width="966" height="418" alt="Untitled Diagram-Page-3 drawio" src="Images/Image%2024.5.PNG" />
+  <img src="Images/Image%2024.5.PNG" />
 </p>
 
 2. Observe the **Adobe Reader not working** ticket
@@ -383,14 +383,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   - **Assigned To:** John
 
 <p align="center">
-  <img width="970" height="321" alt="Untitled Diagram-Page-4 drawio" src="Images/Image%2025.png" />
+  <img src="Images/Image%2025.png" />
 </p>
 
 4. Next to **Status** select **Open** then select **Closed** then **Close** ticket
 5. Open the **Tickets** tab then select **Closed** to confirm the ticket has been closed
 
 <p align="center">
-  <img width="970" height="252" alt="Untitled Diagram-Page-5 drawio" src="Images/Image%2026.PNG" />
+  <img src="Images/Image%2026.PNG" />
 </p>
 
 6. Select **Open** then observe the **entire mobile/online banking system is down** ticket
@@ -401,14 +401,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
   - **Assigned To:** Jane
 
 <p align="center">
-  <img width="965" height="308" alt="Untitled Diagram-Page-6 drawio" src="Images/Image%2027.png" />
+  <img src="Images/Image%2027.png" />
 </p>
 
 8. Scroll down to the **Post Reply** section and enter the response: Business critical outage, escalating ticket
 9. Select **Post Reply**
 
 <p align="center">
-  <img width="965" height="308" alt="Untitled Diagram-Page-6 drawio" src="Images/Image%2027.5.PNG" />
+  <img src="Images/Image%2027.5.PNG" />
 </p>
 
 ---
@@ -418,14 +418,14 @@ The final portion of the lab focuses on the full ticket lifecycle, simulating re
 1. Log into the agent portal as **Jane**
 
 <p align="center">
-  <img width="975" height="681" alt="Untitled Diagram-Page-7 drawio" src="Images/Image%2028.PNG" />
+  <img src="Images/Image%2028.PNG" />
 </p>
 
 2. Observe the **entire mobile/online banking system is down** ticket
 3. Post reply to the ticket that says: System restored, closing ticket then **Post Reply**
 
 <p align="center">
-  <img width="975" height="681" alt="Untitled Diagram-Page-7 drawio" src="Images/Image%2029.PNG" />
+  <img src="Images/Image%2029.PNG" />
 </p>
 
 4. Next to **Status** select **Open** then select **Closed** then **Close** ticket
